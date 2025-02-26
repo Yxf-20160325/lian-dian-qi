@@ -1,8 +1,7 @@
-import tkinter as tk
+ import tkinter as tk
 import pyautogui
 import threading
 import time
-
 # 全局变量，用于控制连点的开关
 running = False
 
@@ -70,7 +69,7 @@ entry_count = tk.Entry(root)
 entry_count.insert(0, "10")  # 默认点击次数为10次
 entry_count.pack(pady=5)
 
-# 创建开始和停止按钮
+# 创建开始、停止按钮和关闭按钮
 button_start = tk.Button(root, text="开始连点", command=start_clicking)
 button_start.pack(pady=20)
 
